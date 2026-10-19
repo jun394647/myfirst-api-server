@@ -1,6 +1,5 @@
-# 베이스 이미지로 OpenJDK 17 버전의 JRE 이미지 사용
-#FROM openjdk:26-ea-21-jdk-slim
-FROM eclipse-temurin:21-jre
+# Harbor에 저장된 Eclipse Temurin 21 JRE 이미지를 베이스로 사용
+FROM skala-registry.skala-us.com/library/eclipse-temurin:21-jre
 
 # 작업 디렉토리 설정
 WORKDIR /app
