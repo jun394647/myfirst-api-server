@@ -19,5 +19,5 @@ patches:
 #     skala-registry.skala-us.com/class-1/sk015-webserver=skala-registry.skala-us.com/class-1/sk015-webserver:<NEW_TAG>
 images:
 - name: skala-registry.skala-us.com/class-1/sk015-webserver
-  newTag: "2.0"
-
+  newName: skala-registry.skala-us.com/class-1/sk015-webserver
+  newTag: 1.0-dk2-b6373be
