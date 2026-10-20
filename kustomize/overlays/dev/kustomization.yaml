@@ -20,3 +20,4 @@ patches:
 images:
 - name: skala-registry.skala-us.com/class-1/sk015-webserver
   newTag: "2.0"
+
